@@ -13,12 +13,12 @@
 </script>
 
 <Card.Root class="">
-	<Card.Header class="space-between border-secondary relative flex flex-row border-b-2 px-3 py-3"
+	<Card.Header class="space-between relative flex flex-row border-b-2 border-secondary px-3 py-3"
 	></Card.Header>
 	<Card.Content
 		class="space-between relative flex flex-row whitespace-pre-wrap px-3 pb-6 pt-3 text-left"
 	>
-		<span class="text-primary/50 relative -ml-2 h-auto cursor-grab p-1">
+		<span class="relative -ml-2 h-auto cursor-grab p-1 text-primary/50">
 			{props.content}
 		</span>
 		<span class="ml-auto">
